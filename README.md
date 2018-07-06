@@ -1,7 +1,7 @@
 # chuangix
 The Chuangix's Arsenal
 
-#### include/
+### include/
 - [ ] **bit.h** -- *bit manipulation*
   - [ ] **BIT_FIND_0(x)**
   - [ ] **BIT_FIND_1(x)**
@@ -20,9 +20,8 @@ The Chuangix's Arsenal
   - [ ] **BIT_INV(x)**
   - [ ] **BIT_ENDIAN_SWAP(x)**
   - [x] **BIT_GET_SIGN(x)**
-#### coding/
-- [ ] **hamming.c** -- *hamming code*
-#### structure/
+- [ ] **hamming.h** -- *hamming code*
+### structure/
 - [ ] **llst.c** -- *linked list*
 - [ ] **cllst.c** -- *circular linked list*
 - [ ] **dllst.c** -- *doubly linked list*
