@@ -11,12 +11,12 @@ The Chuangix's Arsenal
   - [ ] **BIT_SEARCH_1(x)**
   - [ ] **BIT_SEARCH_DIFF(x)**
   - [ ] **BIT_SEARCH_IDEN(x)**
-  - [ ] **BIT_SET(x, mask)**
-  - [ ] **BIT_CLR(x, mask)**
-  - [ ] **BIT_REV(x, mask)**
-  - [ ] **BIT_SET_Nth(x, n)**
-  - [ ] **BIT_CLR_Nth(x, n)**
-  - [ ] **BIT_REV_Nth(x, n)**
+  - [x] **BIT_SET(x, umask)**
+  - [x] **BIT_CLR(x, umask)**
+  - [x] **BIT_REV(x, umask)**
+  - [x] **BIT_SET_Nth(x, n)**
+  - [x] **BIT_CLR_Nth(x, n)**
+  - [x] **BIT_REV_Nth(x, n)**
   - [ ] **BIT_INV(x)**
   - [ ] **BIT_ENDIAN_SWAP(x)**
   - [x] **BIT_GET_SIGN(x)**

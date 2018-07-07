@@ -19,11 +19,11 @@
 
 #define BIT_SEARCH_IDEN(x)
 
-#define BIT_SET(x, mask)
+#define BIT_SET(x, umask)
 
-#define BIT_CLR(x, mask)
+#define BIT_CLR(x, umask)
 
-#define BIT_REV(x, mask)
+#define BIT_REV(x, umask)
 
 #define BIT_SET_Nth(x, n)
 
@@ -36,13 +36,11 @@
 #define BIT_ENDIAN_SWAP(x)
 
 #ifdef LITTLE_ENDIAN
-#define BIT_GET_SIGN(x) \
-        (((signed char *)&x)[sizeof(x) - 1] >> 7 | 1)
+#define BIT_GET_SIGN(x) (((signed char *)&(x))[sizeof(x) - 1] >> 7 | 1)
 #endif
 
 #ifdef BIG_ENDIAN
-#define BIT_GET_SIGN(x) \
-        (((signed char *)&x)[0] >> 7 | 1)
+#define BIT_GET_SIGN(x) (((signed char *)&(x))[0] >> 7 | 1)
 #endif
 
 #endif /* BIT_H_ */
