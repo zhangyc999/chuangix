@@ -19,17 +19,12 @@
 
 #define BIT_SEARCH_IDEN(x)
 
-#define BIT_SET(x, umask)
-
-#define BIT_CLR(x, umask)
-
-#define BIT_REV(x, umask)
-
-#define BIT_SET_Nth(x, n)
-
-#define BIT_CLR_Nth(x, n)
-
-#define BIT_REV_Nth(x, n)
+#define BIT_SET(x, umask) ((x) | (umask))
+#define BIT_CLR(x, umask) ((x) & ~(umask))
+#define BIT_REV(x, umask) ((x) ^ (umask))
+#define BIT_SET_Nth(x, n) (BIT_SET((x), 1 << (n)))
+#define BIT_CLR_Nth(x, n) (BIT_CLR((x), 1 << (n)))
+#define BIT_REV_Nth(x, n) (BIT_REV((x), 1 << (n)))
 
 #define BIT_INV(x)
 
