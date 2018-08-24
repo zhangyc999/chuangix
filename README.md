@@ -2,7 +2,7 @@
 The Chuangix's Arsenal
 
 ### include/
-- [ ] **bit.h** -- *bit manipulation*
+- [ ] **bit.h** -- *Bit Manipulation*
   - [ ] **BIT_FIND_0(x)**
   - [ ] **BIT_FIND_1(x)**
   - [ ] **BIT_FIND_DIFF(x)**
@@ -20,9 +20,11 @@ The Chuangix's Arsenal
   - [ ] **BIT_INV(x)**
   - [ ] **BIT_ENDIAN_SWAP(x)**
   - [x] **BIT_GET_SIGN(x)**
-- [ ] **hamming.h** -- *hamming code*
+- [ ] **hamming.h** -- *Hamming Code*
 ### structure/
-- [ ] **llst.c** -- *linked list*
-- [ ] **cllst.c** -- *circular linked list*
-- [ ] **dllst.c** -- *doubly linked list*
-- [ ] **dcllst.c** -- *doubly circular linked list*
+- [ ] **llst.c** -- *Linked List*
+- [ ] **cllst.c** -- *Circular Linked List*
+- [ ] **dllst.c** -- *Doubly Linked List*
+- [ ] **dcllst.c** -- *Doubly Circular Linked List*
+### ui/
+- [ ] **tester.c** -- *A Common User Interface Tester*
